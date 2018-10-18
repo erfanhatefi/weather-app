@@ -1,0 +1,14 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "main": "async-basics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "randkill",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
