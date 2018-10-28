@@ -18,9 +18,10 @@ var geocodeAddress = (address, callback) => {
         //console.log(JSON.stringify(body, undefined, 2));
     //console.log(JSON.stringify(response, undefined, 2));    
     //console.log(JSON.stringify(error, undefined, 2));
+        address: body.query.results.channel.location.city,
         title: body.query.results.channel.title,
         latitude: body.query.results.channel.item.lat,
-        longitude: body.query.results.channel.item.long
+        longtitude: body.query.results.channel.item.long
       });
     }
   });
